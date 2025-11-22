@@ -12,6 +12,11 @@ public class Main {
         g.tambahJalur("Museum Brawijaya", "Matos", 3, 10);
         g.tambahJalur("Matos", "Universitas Brawijaya", 3, 10);
         g.tambahJalur("Museum Brawijaya", "Universitas Brawijaya", 2, 10);
+        g.tambahJalur("Alun-Alun Malang", "Kayutangan", 1, 3);
+        g.tambahJalur("Kayutangan", "Ijen Boulevard", 4, 12);
+        g.tambahJalur("Ijen Boulevard", "Universitas Brawijaya", 6, 20);
+
+
 
         System.out.print("Masukkan titik asal: ");
         String asal = in.nextLine();
