@@ -6,7 +6,6 @@ public class Main {
         Scanner in = new Scanner(System.in);
         GraphPeta g = new GraphPeta();
 
-        // Contoh data
         g.tambahJalur("Stasiun Kota Baru", "Alun-Alun Malang", 2.5, 10);
         g.tambahJalur("Alun-Alun Malang", "Malang City Point", 5, 15);
         g.tambahJalur("Stasiun Kota Baru", "Museum Brawijaya", 4, 12);

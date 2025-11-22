@@ -127,7 +127,6 @@ public class GraphPeta {
         System.out.println("Jalur: " + path);
     }
 
-    // ===== DFS jalur + jarak =====
     public void pergiDFS(String asal, String tujuan) {
         Set<Node> visited = new HashSet<>();
         List<String> path = new ArrayList<>();
@@ -173,7 +172,6 @@ public class GraphPeta {
         return false;
     }
 
-    // ===== Dijkstra challenge =====
     public void jalurTerpendek(String asal, String tujuan) {
         Node start = nodeMap.get(asal);
         Node end = nodeMap.get(tujuan);
