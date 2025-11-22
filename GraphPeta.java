@@ -216,7 +216,7 @@ public class GraphPeta {
 
         Collections.reverse(path);
 
-        System.out.println("\n=== Dijkstra ===");
+        System.out.println("\nMenggunakan Dijkstra (Jalur Terpendek):");
         System.out.println("Jarak terpendek = " + dist.get(end) + " km");
         System.out.println("Path: " + path);
     }
