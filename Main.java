@@ -24,10 +24,10 @@ public class Main {
         System.out.print("Masukkan titik tujuan: ");
         String tujuan = in.nextLine();
 
-        System.out.println("\n---HASIL---");
+        System.out.println("\n---Hasil---");
 
         boolean bisa = g.bisaPergiBFS(asal, tujuan);
-        System.out.println("(BFS) Dari " + asal + " ke " + tujuan + ": " + (bisa ? "Dapat dijangkau" : "Tidak dapat"));
+        System.out.println("Jalur Dari " + asal + " ke " + tujuan + ": " + (bisa ? "Dapat dijangkau" : "Tidak dapat"));
 
         g.pergiBFS(asal, tujuan);
         g.pergiDFS(asal, tujuan);
